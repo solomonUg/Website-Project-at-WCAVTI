@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: black; 
+    text-align: center;
+}
+
+.logo {
+    float: left; 
+    border-radius: 25%;
+}
+
+h1 {
+    color: gold;
+}
+
+marquee {
+    color: gold;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    margin: 0 15px 0 15px;
+}
+
+.nav-bar {
+    background-color: darkgoldenrod;
+    padding: 20px;
+}
+
+.container-1 {
+    display: flex;
+    direction: column;
+    width: 100%;
+    height: 15cm;
+}
+
+.containerbox1 {
+    display: flex;
+    direction: row;
+    width: 50%;
+    height: 15cm;
+}
+.containerbox2 {
+    width: 50%;
+    height: 15cm;
+    background-color: orange;
+    font-weight: 800px; 
+    position: relative;
+
+}
+
+
+.help-text {
+    color: white;
+    font-size: 60px;
+    padding: 30px;
+    position: absolute;
+    top: 100px;
+
+}
+
+.donate-btn {
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 200px;
+    height: 57px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
+
+.container-2{
+    display: flex;
+    direction: column;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 80px;
+}
+.mission-box {
+    width: 48%;
+    height: 410px;
+    background-color: white;
+    position: absolute;
+    left: 450px;
+    top: 18px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mission-text1 {
+    color: #bf9b42;
+    font-size: 50px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.mission-text-body {
+    color: grey;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 10px;
+    line-height: 2.0;
+}
+
+
+.learn-more-btn {
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(196, 190, 190);
+    border-radius: 5px;
+}
+
+
+
+.mission {
+    text-align: center;
+    color: #bf9b42;
+
+}
+
+
+
+a:hover {
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.box1 {
+    width: 30%;
+    height: 10cm;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-right: 5px;
+    
+}
+
+.box2 {
+    width: 40%;
+    height: 10cm;
+    background-color: #F9EA9A;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+
+.box3 {
+    width: 30%;
+    height: 10cm;
+    background-color: antiquewhite;
+    border-radius: 25px;
+
+}
+
+.box4 {
+    width: 50%;
+    height: 10cm;
+    border-radius: 25px;
+}
+
+.box5 {
+    width: 50%;
+    height: 9cm;
+    background-color: #684E32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    direction: column;
+    background-color: black;
+    color: gold;
+    padding: var(--Numbers-Space-Space-8, 100px);
+    justify-content: space-between;
+    
+}
+
+.copyright {
+ text-align: center;
+ padding: 10px;
+}
+
+
+
+.links a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+li  {
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+.links a:hover {
+    color: yellowgreen;
+}
+
+svg {
+    fill: white;
+    cursor: pointer;
+}
+
+.picture-area-1 {
+    display: flex;
+    direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+
+.picture-area-1 {
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+*/
+.card-1, .card-2, .card-3, .card-4 {
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: #bf9b42;
+}
+
+.card-1 img, .card-2 img, .card-3 img, .card-4 img {
+padding-left: 25px;
+padding-top: 20px;
+
+}
+
+.team-title {
+    color: #684E32;
+    text-align: center;
+}
+
+.position, .name {
+text-align: center;
+}
+.name {
+position: relative;
+bottom: 10px;
+}
+
+/* Contact form page */
+
+.contact {
+    display: flex;
+    direction: column;
+    justify-content: center;
+
+}
+
+.contact-form, .contact-details {
+    background-color: #F9EA9A;
+    width:40%;
+    height: 12cm;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.form-fields  {
+    margin-left: 20px;
+}
+
+
+#name[type=text] {
+    padding: 7px;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;      
+}
+
+#email[type=email] {
+    padding: 7px;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;  
+}
+
+#Phone[type=number], #Comment[type=text] {
+    padding: 7px;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;  
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.contact-location {
+    color: black;
+}
+
+
+/* Registration */
+
+.registration-container {
+    width: 100%;
+    height: 800px;
+    background-color: #ecd18b;
+}
+
+
+.registration-container-fields {
+    padding: 20px;
+}

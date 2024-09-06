@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./mystyle.css">
+</head>
+<body>
+    <div class="header" >
+        <img class="logo"
+          src="./golden_heart_without background.png"
+          alt="logo"
+          width="200px"/>
+        <h1>Registration page</h1>
+        <marquee behavior="" direction="" >Touching lives!</marquee>
+      </div>
+      <br/>
+      <div>
+        <center>
+          <nav class="nav-bar">
+            <a href="./">Home</a>
+            <a href="./about.html" target="_blank">About Us</a>
+            <a href="./mission.html" target="_blank">Mission</a>
+            <a href="./impact.html" target="_blank">Impact</a>
+            <a href="./gallery.html" target="_blank">Gallery</a>
+            <a href="./contactUs.html" target="_blank">Contact Us</a>
+            <a href="./team.html" target="_blank">Our Team</a>
+          </nav>
+        </center> <br>
+      </div>
+      <div class="registration-container">
+        <form action="" class="registration-container-fields" >
+          
+          <label for="name">First Name:</label><br>
+          <input id="name" type="text" > 
+          <br><br>
+
+          <label for="name">Middle Name:</label><br>
+          <input id="name" type="text" > 
+          <br><br>
+
+          <label for="name">Surname:</label><br>
+          <input id="name" type="text" > 
+          <br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email"><br><br>
+
+          <label for="Phone">Phone Number:</label><br>
+          <input type="number" id="Phone"><br><br>
+
+          <label>Gender:</label><br>
+          <input type="radio"  id="male" value="Male" name="Gender"> 
+          <label for="male">Male</label><br>
+          <input type="radio"  id="female" value="Female" name="Gender"> 
+          <label for="female">Female</label>
+
+          <p>Nationality</p>
+          <select name="country" id="country">
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Denmark">Denmark</option>
+            <option value="England">England</option>
+            <option value="Finland">Finland</option>
+            <option value="Guinea">Guinea</option>
+            <option value="Iceland">Iceland</option>
+            <option value="Mali">Mali</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Namibia">Namibia</option>
+            <option value="Poland">Poland</option>
+            <option value="South Africa">South Africa</option>
+
+
+
+          </select>
+          <br><br>
+          <label> Interest:</label><br>
+          <input type="checkbox" id="sports" name="interest" value="sports">
+          <label for="sports"> Sports</label>
+
+          <input type="checkbox" id="politics" name="interest" value="politics">
+          <label for="politics"> Politics</label>
+
+          <input type="checkbox" id="science" name="interest" value="science">
+          <label for="science"> Science</label><br><br>
+
+        
+          <label for="textarea">Comment:</label><br>
+          <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea> <br>
+
+          <input type="submit" value="Submit" >
+          <input type="reset" value="Reset" >
+
+        </form>
+      </div>
+</body>
+</html>
